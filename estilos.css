@@ -19,12 +19,13 @@ header{
     padding-right: 10px;
 }
 .logo {
-    float: left; !important
-    font-weight: bold;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 50px;
     
-}
+    float: left !important;
+    font-weight: bold!important;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px!important;
+    
+} 
 
 
 .barra{
@@ -152,6 +153,15 @@ h2{
  .galeria{
     height: auto;
  }
+
+.galeria img{
+   height: 300px;
+   
+    
+
+}
+
+ 
  
     
  
@@ -164,7 +174,7 @@ footer{
     padding: 20px;
 }
 .Contacto{
-    text-align: center;
+    text-align: center !important;
     color: black;
     font-weight: bold;
     
@@ -178,6 +188,7 @@ footer{
 
 .Contacto i{
     color: black;
+    align-items: center;
     font-size: 25px;
     padding: 5px;
 }
