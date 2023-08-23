@@ -28,6 +28,25 @@ header{
 } 
 
 
+.menu{
+    color: black;
+    float: right;
+    font-size: 30px;
+    cursor: pointer;
+    padding-top: 20px;
+    padding-right: 10px;
+    display: none;
+    
+    
+}
+ .menu i:hover{
+    color: white;
+    
+ }
+
+
+
+
 .barra{
     float: right;
     padding: 30px;
@@ -54,6 +73,7 @@ header{
 .barra a:hover{
     color: white;
 }
+
 
 main{
     height: 500px;
@@ -152,10 +172,11 @@ h2{
   
  .galeria{
     height: auto;
+    padding:40px;
  }
 
 .galeria img{
-   height: 300px;
+   height: 220px;
    
 }
 
@@ -205,6 +226,10 @@ footer{
     .seccion1{
         width: 300px;
         padding: 5px;
+       
+    }
+    h1{
+        padding-top: 10px;
     }
     .seccion2{
         width: 300px;
@@ -212,10 +237,23 @@ footer{
 
     }
     .galeria{
-        padding-right: 5px;
+        padding:40px;
+
     }
+    .menu{
+        display: block;
+    }
+    
+    .barra a{
+        font-size: 10px;   
+        padding: 5px;
+        
+        
+    
+   
+      
+   
 }
 
     
 
-    
