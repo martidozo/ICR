@@ -57,7 +57,6 @@ header{
 
 main{
     height: 500px;
-    width: 100%;
     background-image: url(./Imagenes/fondo.jpg);
     background-size: cover;
     padding: 80px;
@@ -85,7 +84,8 @@ p{
 }
 section{
     height: 500px;
-    display: flex;
+    display:flex;
+    flex-direction: row;
     justify-content: space-between;
     padding: 20px;
     align-items: center;
@@ -157,16 +157,7 @@ h2{
 .galeria img{
    height: 300px;
    
-    
-
 }
-
- 
- 
-    
- 
- 
-
 
 footer{
     height: 100px;
@@ -174,7 +165,7 @@ footer{
     padding: 20px;
 }
 .Contacto{
-    text-align: center !important;
+    text-align: center;
     color: black;
     font-weight: bold;
     
@@ -188,7 +179,6 @@ footer{
 
 .Contacto i{
     color: black;
-    align-items: center;
     font-size: 25px;
     padding: 5px;
 }
@@ -202,4 +192,30 @@ footer{
     color: white;
 }
 
+@media only screen and (max-width: 350px) {
+    section{
+        display:flex; 
+        flex-direction: column;
+        height: auto;
 
+    }
+    main{
+        padding-left: 8px;
+    }
+    .seccion1{
+        width: 300px;
+        padding: 5px;
+    }
+    .seccion2{
+        width: 300px;
+        padding: 8px;
+
+    }
+    .galeria{
+        padding-right: 5px;
+    }
+}
+
+    
+
+    
