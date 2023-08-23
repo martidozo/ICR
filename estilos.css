@@ -47,6 +47,7 @@ header{
 
 
 
+
 .barra{
     float: right;
     padding: 30px;
@@ -218,7 +219,12 @@ footer{
         display:flex; 
         flex-direction: column;
         height: auto;
+        justify-content: space-between;
 
+    }
+    .cuadro{
+        height: 300px;
+        
     }
     main{
         padding-left: 8px;
@@ -240,9 +246,13 @@ footer{
         padding:40px;
 
     }
+    .barra ul li{
+        display: none;
+    }
     .menu{
         display: block;
     }
+
     
     .barra a{
         font-size: 10px;   
@@ -250,10 +260,5 @@ footer{
         
         
     
-   
-      
-   
-}
-
-    
-
+    }
+    }
