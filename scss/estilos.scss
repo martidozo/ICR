@@ -1,0 +1,245 @@
+/* CSS HSL 
+--tiffany-blue: hsla(174, 60%, 73%, 1);
+--white: hsla(0, 0%, 100%, 1);
+--white-2: hsla(0, 0%, 100%, 1);
+--cambridge-blue: hsla(174, 18%, 57%, 1);
+--tiffany-blue-2: hsla(173, 54%, 75%, 1);
+--background: linear-gradient(0deg, hsla(174, 59%, 73%, 1) 0%, hsla(173, 54%, 75%, 1) 50%, hsla(174, 18%, 57%, 1) 100%);*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+
+header{
+   background-color: hsl(174, 60%, 73%, 1);
+   height: 100px;
+   padding: 10px;
+   padding-left: 20px;
+   padding-right: 10px;
+}
+.logo {
+   
+   float: left !important;
+   font-weight: bold!important;
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+   font-size: 50px!important;
+   
+} 
+.dropdown{
+    left: -300px;
+}
+
+.barra{
+   float: right;
+   padding: 30px;
+   
+}
+
+.barra ul{
+   list-style: none;
+}
+
+.barra ul li{
+   display: inline-block;
+}
+
+.barra a{
+   text-decoration: none;
+   color: black;
+   font-size: 15px;   
+   padding: 10px;
+   font-weight: bold;
+   
+   
+}
+.barra a:hover{
+   color: white;
+}
+
+
+main{
+   height: 500px;
+   background-image: url(../Imagenes/fondo.jpg);
+   background-size: cover;
+   padding: 80px;
+
+}
+
+
+.seccion1{
+   height: 300px;
+   background-color:hsl(174, 60%, 73%, 1);
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   text-align: center;
+   padding: 40px;
+   border-style: solid;
+   border-radius: 5px;
+   border-color: black;
+   
+}
+h1{
+   margin-top: 20px;
+  
+}
+p{
+   margin-top: 20px;
+}
+section{
+   height: 500px;
+   display:flex;
+   flex-direction: row;
+   justify-content: space-between;
+   padding: 20px;
+   align-items: center;
+
+}
+h2{
+   text-align: center;
+   font-weight: bold;
+   background-color:hsl(174, 60%, 73%, 1) ;
+   padding: 10px;
+
+}
+
+
+.cuadro{
+   padding: 40px;
+   border-style:solid;
+   border-color: black;
+   border-radius: 1px;
+   background-color:hsl(174, 60%, 73%, 1) ;
+   height: 400px;
+   width: 300px;
+   text-align: center;
+   
+  
+}
+   
+
+.titulo a{
+   text-decoration: none;
+   color: black;
+   font-size: 20px;
+   padding : 20px;
+   font-weight: bold;
+   text-decoration: underline;
+   text-align: center;
+  
+
+}
+
+.titulo a:hover{
+   color: white;
+}
+.cuadro img{
+   height: 200px;
+   width: auto;
+   padding: 10px;
+   
+}
+ 
+   
+
+
+ .seccion2{
+   height: 200px;
+   background-color:hsl(174, 60%, 73%, 1);
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   text-align: center;
+   padding: 10px;
+   border-style: solid;
+   border-radius: 5px;
+   border-color: black;
+ }
+ 
+.galeria{
+   height: auto;
+   padding:40px;
+}
+
+.galeria img{
+  height: 280px;
+  
+}
+
+footer{
+   height: 100px;
+   background-color: hsla(174, 60%, 73%, 1);
+   padding: 20px;
+}
+.Contacto{
+   text-align: center;
+   color: black;
+   font-weight: bold;
+   
+}
+
+.Contacto ul li{
+   display: inline-block;
+   color: hsla(174, 60%, 73%, 1);
+   
+}
+
+.Contacto i{
+   color: black;
+   font-size: 25px;
+   padding: 5px;
+}
+.Contacto a{
+   text-decoration: none;
+   color: black;
+   font-size: 15px;
+   text-decoration-line: underline;
+}
+.Contacto a:hover{
+   color: white;
+}
+
+@media only screen and (max-width: 350px) {
+   section{
+       display:flex; 
+       flex-direction: column;
+       height: auto;
+       justify-content: space-between;
+
+   }
+   .cuadro{
+       height: 300px;
+       
+   }
+   main{
+       padding-left: 8px;
+   }
+   .seccion1{
+       width: 300px;
+       padding: 5px;
+      
+   }
+   h1{
+       padding-top: 10px;
+   }
+   .seccion2{
+       width: 300px;
+       padding: 8px;
+
+   }
+   .galeria{
+       padding:40px;
+
+   }
+   .dropdown{
+    left: 100px;
+    padding: 20px;
+  }
+   .barra ul li{
+       display: none;
+   }
+   
+   .barra a{
+       font-size: 10px;   
+       padding: 5px;
+       
+       
+   
+   }
+   }
