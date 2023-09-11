@@ -126,7 +126,13 @@ h2 {
   height: 200px;
   width: auto;
   padding: 10px;
-}
+  transition: transform 0.2s ease;
+  }
+  
+  img:hover {
+    transform: scale(1.1);
+  }
+
 
 .seccion2 {
   height: 200px;
@@ -146,7 +152,13 @@ h2 {
 
 .galeria img {
   height: 280px;
-}
+  transition: transform 0.2s ease;
+  }
+  
+  img:hover {
+    transform: scale(1.1);
+  }
+
 
 footer {
   height: 100px;
